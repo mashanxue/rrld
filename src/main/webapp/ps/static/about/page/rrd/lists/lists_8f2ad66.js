@@ -1,0 +1,1 @@
+define("about:page/rrd/lists/lists.js",function(require,exports,module){"use strict";module.exports={pagination:function(pages,index){$("#news-list-pagination").pagination({pages:pages,currentPage:index,hrefTextPrefix:"./",prevText:"上一页",nextText:"下一页",ellipsePageSet:!1})}}});
